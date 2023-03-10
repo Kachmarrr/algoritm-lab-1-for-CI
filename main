@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+   float side, volume, surfaceArea;
+
+   printf("Enter the side length of the cube: ");
+   scanf("%f", &side);
+
+   volume = side * side * side;
+   surfaceArea = 6 * side * side;
+
+   printf("Volume of the cube: %f\n", volume);
+   printf("Surface area of the cube: %f\n", surfaceArea);
+
+   return 0;
+}
